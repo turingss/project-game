@@ -7,13 +7,15 @@ export class GameAPP extends Component {
 
 
     private featurea:FeatureA = null;
+    
 
 
     start() {
         
         this.featurea = new FeatureA();
         this.featurea.firstMethod();
-            
+        this.featurea.secondMethod();
+
     }
 
     update(deltaTime: number) {
